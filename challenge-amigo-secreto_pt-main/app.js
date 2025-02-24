@@ -6,7 +6,7 @@ function adicionarAmigo() {
     let inputAmigo = document.getElementById("amigo"); //o ID "amigo" é determinado no input dentro do arquivo HTML
     let nome = inputAmigo.value; //captura o texto que o usuário digitou
 
-    if(nome.trim() === "") { //nome.trim() remve espaços vazios extras antes e depois do nome.
+    if(nome.trim() === "") { //nome.trim() remove espaços vazios extras antes e depois do nome.
         alert("Por favor, insira um nome.");
         return;
     }
@@ -16,7 +16,7 @@ function adicionarAmigo() {
     atualizarLista();
 }
 
-//Criar função atualizarLista()
+//Implementar função atualizarLista()
 function atualizarLista() {
     let lista = document.getElementById("listaAmigos"); //o ID "listaAmigos" é determinado no input dentro do arquivo HTML
     lista.innerHTML = ""; // limpa a lista antes de adicionar os itens novamente para evitar duplicação; 
@@ -27,3 +27,20 @@ function atualizarLista() {
         lista.appendChild(item); //adiciona o li à lista
     }
 }
+
+//Implementar função sortearAmigo
+function sortearAmigo() {
+    let resultado = document.getElementById("resultado");
+
+    if (arrayAmigos.length === 0) { //verifica se há nomes na lista
+        alert("Para o sorteio acontecer, é necessário que haja pelo menos um participante! Digite um ou mais nomes para serem sorteados.");
+        return;
+    }
+
+    let indiceSorteado = Math.floor(Math.random() * arrayAmigos.length);
+    let nomeSorteado = arrayAmigos[indiceSorteado];
+
+    
+    resultado.innerHTML = `<li> Parabéns! ${nomeSorteado} foi sorteado! </li>`;
+}
+
