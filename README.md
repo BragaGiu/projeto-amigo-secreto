@@ -35,4 +35,4 @@
 │── assets/         # Imagens e ícones
 
 <h2>📜 Sobre mim</h2>
-<p>Esse é um dos meus primeiros projetos. Estou sempre buscando aprender e pôr em práticas esses novos conhecimentos, pois acredito que é a melhor maneira que fixar o conteúdo! aprendendo e evoluindo! Se quiser ver mais projetos, continue acompanhando meu portfólio! 😊</p>
+<p>Esse é um dos meus primeiros projetos. Estou sempre buscando aprender e pôr em práticas esses novos conhecimentos, pois acredito que é a melhor maneira de fixar o conteúdo! Se quiser ver mais projetos e acompanhar a evolução do meu conhecimento, continue acompanhando meu portfólio! 😊</p>
