@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/509a9353-7d8f-4004-8b9a-3a39d5436cd9)
 
-<h2>O que é e qual a funcionalidade do Projeto Amigo Secreto?</h2>
+<h2>O que é e quais as funcionalidades do Projeto Amigo Secreto?</h2>
 <p> Este projeto básico foi elaborado para prática iniciante da Linguagem de Programação, utilizando JavaScript. Nele, você poderá realizar sorteios de forma simples e divertida, tendo como funcionalidades do código: </p>
 <ul>
     <li>✅ Adicionar nomes à lista</li>
