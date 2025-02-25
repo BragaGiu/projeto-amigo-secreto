@@ -28,6 +28,8 @@
     <li>Depois, clique em "Sortear amigo" e veja o resultado! 🎉</li>
 </ol>
 
+<ul>Deploy:https://amigo-secreto-red-alpha.vercel.app/</ul>
+
 <h2> Estrutura do Projeto</h2>
 <pre>  amigo-secreto
 │── index.html      # Estrutura da página
